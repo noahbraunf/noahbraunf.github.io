@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+body {
+  margin: 0px;
+}
+
+#header1 {
+  background-image: url("https://static.pexels.com/photos/52851/pexels-photo-52851.jpeg");
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 120px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.p1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+}
+
+.bold1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(200, 230, 200);
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.spacer1 {
+  height: 350px;
+}
+
+#header2 {
+  background-image: url("https://static.pexels.com/photos/55367/pexels-photo-55367.jpeg");
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 500px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.p2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+}
+
+.bold2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(20, 200, 255);
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.middle {
+  margin: auto;
+  border: auto;
+  text-align: center;
+  padding: 145px;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colors {
+  font-family: 'Raleway', sans-serif;
+  color: lightblue;
+}
