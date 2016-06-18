@@ -60,6 +60,7 @@ body {
 .middle {
   margin: auto;
   border: auto;
+  style: normal;
   text-align: center;
   padding: 145px;
   font-size: 55px;
