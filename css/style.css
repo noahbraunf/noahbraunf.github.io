@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Slabo+27px|Roboto+Slab|Droid+Serif);
+.title1 {
+  font-family: 'Roboto Slab', serif;
+  color: cyan;
+}
+div {
+  width: 260px;
+}
+.paragraph1 {
+  width: 500px;
+  padding: 30px;
+  margin: 20px auto;
+  text-indent: 2.2em;
+  color: rgb(255, 128, 0);
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+  background-color: black;
+}
+img {
+  width: 400px;  
+}
+input {
+  margin: auto;
+}
