@@ -43,14 +43,14 @@ body {
   color: white;
 }
 
-.bold1 {
+.fade-in.bold1 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(200, 230, 200);
   font-size: 72px;
   font-weight: 900;
     -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
+  animation-delay: 0.9s;
 }
 
 .spacer1 {
@@ -73,12 +73,9 @@ body {
   font-size: 52px;
   text-align: center;
   color: white;
-   -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
 }
 
-.bold2 {
+.fade-in.bold2 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 200, 255);
   font-size: 72px;
@@ -98,10 +95,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.colors {
+.fade-in.colors {
   font-family: 'Raleway', sans-serif;
   color: pink;
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
+  animation-delay: 2.2s;
 }
