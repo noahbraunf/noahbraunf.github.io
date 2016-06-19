@@ -22,7 +22,11 @@ body {
 }
 
 
-
+body {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
 
 #header1 {
   background-image: url("https://static.pexels.com/photos/52851/pexels-photo-52851.jpeg");
