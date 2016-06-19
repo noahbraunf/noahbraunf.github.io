@@ -118,13 +118,13 @@ body {
   font-size: 72px;
 }
 .fade-in.green {
-  color: rgba(20, 230, 30, 80%);
+  color: rgb(20, 230, 30,);
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.5s;
 }
 .fade-in.brown {
-  color: rgba(100, 65, 53, 80%);
+  color: rgb(100, 65, 53,);
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.9s;
