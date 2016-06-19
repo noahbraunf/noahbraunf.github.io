@@ -48,6 +48,7 @@ body {
   color: rgb(200, 230, 200);
   font-size: 72px;
   font-weight: 900;
+  position: relative;
     -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 0.9s;
@@ -80,6 +81,7 @@ body {
   color: rgb(20, 200, 255);
   font-size: 72px;
   font-weight: 900;
+  position: relative;
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 1.6s;
@@ -98,6 +100,7 @@ body {
 .fade-in.colors {
   font-family: 'Raleway', sans-serif;
   color: pink;
+  position: relative;
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.2s;
