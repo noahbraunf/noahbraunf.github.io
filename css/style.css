@@ -4,9 +4,6 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 body {
   margin: 0px;
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
 
 }
 
@@ -44,9 +41,6 @@ body {
   font-size: 52px;
   text-align: center;
   color: white;
-   -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
 }
 
 .bold1 {
@@ -54,6 +48,9 @@ body {
   color: rgb(200, 230, 200);
   font-size: 72px;
   font-weight: 900;
+    -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 
 .spacer1 {
@@ -86,6 +83,9 @@ body {
   color: rgb(20, 200, 255);
   font-size: 72px;
   font-weight: 900;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 
 .middle {
@@ -96,12 +96,12 @@ body {
   padding: 145px;
   font-size: 55px;
   font-family: 'Montserrat', sans-serif;
-   -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
 }
 
 .colors {
   font-family: 'Raleway', sans-serif;
-  color: lightblue;
+  color: pink;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
