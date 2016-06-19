@@ -87,7 +87,7 @@ body {
   animation-delay: 1.6s;
 }
 
-.middle {
+h2 {
   margin: auto;
   border: auto;
   font-weight: 400;
@@ -126,7 +126,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 72px;
-  color: rgb(100, 65, 53);
+  color: rgb(120, 65, 53);
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.9s;
