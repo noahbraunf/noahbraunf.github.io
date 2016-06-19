@@ -118,13 +118,19 @@ body {
   font-size: 72px;
 }
 .fade-in.green {
-  color: rgb(20, 230, 30,);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;]
+  font-size: 72px;
+  color: rgb(20, 230, 30);
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.5s;
 }
 .fade-in.brown {
-  color: rgb(100, 65, 53,);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;]
+  font-size: 72px;
+  color: rgb(100, 65, 53);
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 2.9s;
