@@ -26,7 +26,7 @@ body {
 
 
 #header1 {
-  background-image: url("https://static.pexels.com/photos/52851/pexels-photo-52851.jpeg");
+  background-image: url("grass1.jpg");
   position: relative;
   height: 500px;
   background-size: cover;
@@ -59,7 +59,7 @@ body {
 }
 
 #header2 {
-  background-image: url("https://static.pexels.com/photos/55367/pexels-photo-55367.jpeg");
+  background-image: url("sky1.jpeg");
   position: relative;
   height: 500px;
   background-size: cover;
@@ -135,7 +135,7 @@ h2 {
   height:350px;
 }
 #header3 {
-  background-image: url("https://static.pexels.com/photos/48694/pexels-photo-48694.jpeg");
+  background-image: url("space1.jpg");
   position: relative;
   height: 500px;
   background-size: cover;
