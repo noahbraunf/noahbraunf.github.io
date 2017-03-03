@@ -1,149 +1,19 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lora|Merriweather:300,400|Poppins:300,400,700|Roboto+Slab:400,700|Slabo+27px');
 body {
-  margin: 0px;
-
+	height: 1080px;
+	width: 1920px;
+}
+#welcome {
+	font-family: Merriweather, serif;
+	text-align: center;
+	font-size: 6.3em;
+	opacity: 0.0;
 }
 
-
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
+div {
+	display: block;
+	background-color: darkred;
+	margin: auto;
+	height: 1em;
+	width: 0em;
 }
-
-
-
-#header1 {
-  background-image: url("C:\Users\noahb\OneDrive\Documents\GitHub\noahbraunf.github.io\grass1.jpg");
-  position: relative;
-  height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 120px;
-  border-radius: 0px 0px 30px 30px;
-}
-
-.p1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 52px;
-  text-align: center;
-  color: white;
-}
-
-.fade-in.bold1 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(200, 230, 200);
-  font-size: 72px;
-  font-weight: 900;
-  position: relative;
-    -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 0.9s;
-}
-
-.spacer1 {
-  height: 350px;
-}
-
-#header2 {
-  background-image: url("C:\Users\noahb\OneDrive\Documents\GitHub\noahbraunf.github.io\sky1.jpeg");
-  position: relative;
-  height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 120px;
-  border-radius: 30px 30px 30px 30px;
-}
-
-.p2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 52px;
-  text-align: center;
-  color: white;
-}
-
-.fade-in.bold2 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(20, 200, 255);
-  font-size: 72px;
-  font-weight: 900;
-  position: relative;
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-}
-
-h2 {
-  margin: auto;
-  border: auto;
-  font-weight: 400;
-  text-align: center;
-  padding: 145px;
-  font-size: 55px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.fade-in.colors {
-  font-family: 'Raleway', sans-serif;
-  color: pink;
-  position: relative;
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 2.2s;
-}
-.p3 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 52px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-}
-
-.fade-in.green {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 72px;
-  color: rgb(20, 230, 30);
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 2.5s;
-}
-.fade-in.brown {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 72px;
-  color: rgb(120, 65, 53);
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 2.9s;
-}
-.spacer2 {
-  height:350px;
-}
-#header3 {
-  background-image: url("C:\Users\noahb\OneDrive\Documents\GitHub\noahbraunf.github.io\space1.jpg");
-  position: relative;
-  height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 120px;
-  border-radius: 30px 30px 0px 0px;
-  }
-  .pretty {
-    color: black;
-    font-family: "Raleway", sans-serif;
-  }
