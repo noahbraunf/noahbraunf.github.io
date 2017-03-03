@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Lora|Merriweather:300,400|Poppins:300,400,700|Roboto+Slab:400,700|Slabo+27px');
-body {
-	height: 1080px;
-	width: 1920px;
-}
+
 #welcome {
 	font-family: Merriweather, serif;
 	text-align: center;
-	font-size: 6.3em;
+	font-size: 70px;
 	opacity: 0.0;
 }
 
